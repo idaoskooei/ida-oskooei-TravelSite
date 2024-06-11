@@ -3,11 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>travel site</title>
+    <title>Travel Site - Home</title>
+    <link rel="stylesheet" href="css/styles/global.css">
 </head>
 <body>
-    <h1>
-        hi
-    </h1>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="nav__logo">Travel Site</a>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link nav__link--active">Home</a></li>
+                <li class="nav__item"><a href="iceland.html" class="nav__link">Iceland</a></li>
+                <li class="nav__item"><a href="greece.html" class="nav__link">Greece</a></li>
+                <li class="nav__item"><a href="hawaii.html" class="nav__link">Hawaii</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 class="hero__title">Travelling Comes With Endless Discoveries</h1>
+            <p class="hero__slogan">
+                Don’t let your dreams be just dreams. Experience the world by booking a vacation with us now.
+                </p>
+            <a href="iceland.html" class="hero__button">Get Started</a>
+        </section>
+        <section class="recommendations">
+            <h2 class="recommendations__title">Recommended Destinations</h2>
+            <div class="recommendations__cards">
+                <a href="iceland.html" class="card">
+                    <img src="assets/iceland.jpg" alt="Iceland" class="card__image">
+                    <div class="card__content">Iceland</div>
+                </a>
+                <a href="greece.html" class="card">
+                    <img src="assets/greece.jpg" alt="Greece" class="card__image">
+                    <div class="card__content">Greece</div>
+                </a>
+                <a href="hawaii.html" class="card">
+                    <img src="assets/hawaii.jpg" alt="Hawaii" class="card__image">
+                    <div class="card__content">Hawaii</div>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__content">
+            <h3 class="footer__title">Travel Site</h3>
+            <p class="footer__text">Your gateway to amazing adventures.</p>
+        </div>
+    </footer>
 </body>
 </html>
