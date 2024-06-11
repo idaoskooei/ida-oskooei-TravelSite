@@ -1,0 +1,64 @@
+.hero {
+    padding-top: 70px;
+    background-color: #FEFAF5;
+    padding: 100px 20px;
+    text-align: left;
+}
+
+.hero__title {
+    color: #335576;
+    font-size: 48px;
+}
+
+.hero__slogan {
+    color: #335576;
+    margin: 20px 0;
+}
+
+.hero__button {
+    background-color: #DB7A4E;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.recommendations {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.recommendations__title {
+    color: #335576;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.recommendations__cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card__image {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.card__content {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: #335576;
+    font-size: 20px;
+    font-weight: bold;
+}
