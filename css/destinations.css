@@ -1,0 +1,45 @@
+.destination {
+    padding-top: 70px;
+    text-align: center;
+    color: #335576;
+}
+
+.destination__title {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+.destination__image {
+    width: 100%;
+    height: auto;
+}
+
+.itinerary {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.itinerary__day {
+    background-color: #FEFAF5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+    width: 250px;
+}
+
+.itinerary__title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #DB7A4E;
+}
+
+.itinerary__list {
+    text-align: left;
+}
+
+.itinerary__item {
+    margin: 10px 0;
+    color: #335576;
+}
