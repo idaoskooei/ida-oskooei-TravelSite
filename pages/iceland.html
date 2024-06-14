@@ -1,107 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-    <title>Travel Site - Iceland</title>
-
-    <link rel="stylesheet" href="css/destinations.css" />
-  </head>
-  <body>
-    <header class="header">
-      <nav class="main-nav">
-        <h1 class="main-nav__title"><a class="main-nav__title-link" href="../">Travel Site</a></h1>
-        <ul class="main-nav__nav-list">
-          <li class="main-nav__nav-item"><a class="main-nav__nav-link" href="../">Home</a></li>
-          <li class="main-nav__nav-item"><a class="main-nav__nav-link" href="./hawaii.html">Hawaii</a></li>
-          <li class="main-nav__nav-item main-nav__nav-item--current"><a class="main-nav__nav-link" href="./iceland.html">Iceland</a></li>
-          <li class="main-nav__nav-item"><a class="main-nav__nav-link" href="./greece.html">Greece</a></li>
-        </ul>
-      </nav>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/css/global.css">
+        <link rel="stylesheet" href="/css/destinations.css">
+        <title>Iceland</title>
+    </head>
+<body>
+    <!-- header -->
+    <header class="navbar">
+        <nav class="navbar__wordmark-list-container">
+            <h1 class="navbar__wordmark">
+                <a class='navbar__link-wordmark' href='/'>Travel Site</a>
+            </h1>
+            <!-- navigation  -->
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a class='navbar__link' href='/'>Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a class='navbar__link' href='/pages/hawaii.html'>Hawaii</a>
+                </li>
+                <li class="navbar__item   navbar__item--selected">
+                    <a class='navbar__link' href='/pages/iceland.html'>Iceland</a>
+                </li>
+                <li class="navbar__item">
+                    <a class='navbar__link' href='/pages/greece.html'>Greece</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-
-    <main class="main main--iceland">
-      <img class="fill-image main__background" src="../assets/images/iceland.jpg" alt="iceland" />
-      <section class="itinerary">
-        <h1 class="itinerary__title">Iceland</h1>
-        <div class="card-list itinerary__card-list">
-          <!-- Friday -->
-          <article class="card itinerary-card">
-            <h2 class="itinerary-card__title">Friday</h2>
-            <ul class="activity-list">
-              <li class="activity-list__item">Breakfast</li>
-              <li class="activity-list__item">Lunch</li>
-              <li class="activity-list__item">Dinner</li>
-              <li class="activity-list__item">Hiking</li>
-            </ul>
-          </article>
-
-          <!-- Saturday -->
-          <article class="card itinerary-card">
-            <h2 class="itinerary-card__title">Saturday</h2>
-            <ul class="activity-list">
-              <li class="activity-list__item">Breakfast</li>
-              <li class="activity-list__item">Lunch</li>
-              <li class="activity-list__item">Dinner</li>
-              <li class="activity-list__item">Hiking</li>
-            </ul>
-          </article>
-
-          <!-- Sunday -->
-          <article class="card itinerary-card">
-            <h2 class="itinerary-card__title">Sunday</h2>
-            <ul class="activity-list">
-              <li class="activity-list__item">Breakfast</li>
-              <li class="activity-list__item">Lunch</li>
-              <li class="activity-list__item">Dinner</li>
-              <li class="activity-list__item">Hiking</li>
-            </ul>
-          </article>
-        </div>
-      </section>
+    <!-- main -->
+    <main>
+        <!-- itinerary  -->
+        <article class="itinerary itinerary--iceland-photo">
+            <!-- itinerary  heading -->
+            <h2 class="itinerary__title">Iceland</h2>
+            <!-- itinerary cards  -->
+            <section class="itinerary__cards-container">
+                <div class="itinerary__card">
+                    <h3 class="itinerary__card--title">Friday</h3>
+                    <ul class="itinerary__list">
+                        <li class="itinerary__activity">Breakfast</li>
+                        <li class="itinerary__activity">Lunch</li>
+                        <li class="itinerary__activity">Dinner</li>
+                        <li class="itinerary__activity">Snorkeling</li>
+                    </ul>
+                </div>
+                <div class="itinerary__card">
+                    <h3 class="itinerary__card--title">Saturday</h3>
+                    <ul class="itinerary__list">
+                        <li class="itinerary__activity">Breakfast</li>
+                        <li class="itinerary__activity">Lunch</li>
+                        <li class="itinerary__activity">Dinner</li>
+                        <li class="itinerary__activity">Snorkeling</li>
+                    </ul>
+                </div>
+                <div class="itinerary__card">
+                    <h3 class="itinerary__card--title">Sunday</h3>
+                    <ul class="itinerary__list">
+                        <li class="itinerary__activity">Breakfast</li>
+                        <li class="itinerary__activity">Lunch</li>
+                        <li class="itinerary__activity">Dinner</li>
+                        <li class="itinerary__activity">Snorkeling</li>
+                    </ul>
+                </div>
+            </section>
+        </article>
     </main>
-
+    <!-- footer  -->
     <footer class="footer">
-      <!-- Contact -->
-      <div class="footer__contact">
-        <h2 class="footer__subheading">Contact</h2>
-        <h3 class="footer__label">EMAIL</h3>
-        <p>info@travelsite.com</p>
-      </div>
-
-      <!-- Hours -->
-      <div class="footer__hours">
-        <h2 class="footer__subheading">Hours</h2>
-        <div class="footer__hours-list">
-          <!-- Monday - Friday -->
-          <div class="footer__hours-item">
-            <h3 class="footer__label">MONDAY - FRIDAY</h3>
-            <time>9:00 AM - 5:00 PM</time>
-          </div>
-
-          <!-- Saturday -->
-          <div class="footer__hours-item">
-            <h3 class="footer__label">SATURDAY</h3>
-            <time>10:00 AM - 4:00 PM</time>
-          </div>
-
-          <!-- Sunday -->
-          <div class="footer__hours-item">
-            <h3 class="footer__label">SUNDAY</h3>
-            <time>Closed</time>
-          </div>
+        <!-- contacts  -->
+        <div>
+            <h3 class="footer__title">Contact</h3>
+            <p class="footer__subtitle">EMAIL</p>
+            <a href="mailto:info@travelsite.com" class="footer__link">info@travelsite.com</a>
         </div>
-      </div>
-
-      <!-- Social -->
-      <div class="footer__social">
-        <h2 class="footer__subheading">Social</h2>
-        <div class="footer__icons-list">
-          <a href="https://instagram.com/" target="_blank"><img class="footer__icon" src="../assets/icons/icon-instagram.png" alt="instagram" /></a>
-          <a href="https://facebook.com/" target="_blank"><img class="footer__icon" src="../assets/icons/icon-facebook.png" alt="facebook" /></a>
-          <a href="https://twitter.com/" target="_blank"><img class="footer__icon" src="../assets/icons/icon-twitter.png" alt="twitter" /></a>
+        <!-- hours  -->
+        <div class="footer__hours-card">
+            <h3 class="footer__title">Hours</h3>
+            <div class="footer__days-hours-container">
+                <div>
+                    <p class="footer__subtitle">MONDAY-FRIDAY</p>
+                    <p class="footer__body">9:00 AM - 5:00 PM</p>
+                </div>
+                <div>
+                    <p class="footer__subtitle">SATURDAY</p>
+                    <p class="footer__body">10:00 AM - 4:00 PM</p>
+                </div>
+                <div>
+                    <p class="footer__subtitle">SUNDAY</p>
+                    <p class="footer__body">Closed</p>
+                </div>
+            </div>
         </div>
-      </div>
+        <!-- social media  -->
+        <div class="footer__social-card">
+            <h3 class="footer__title">Social</h3>
+            <div class="footer__icons-container">
+                <a href="https://instagram.com" class="footer__link">
+                    <img src="../assets/Icons/icon-instagram.png" alt="instagram" class="footer__icon">
+                </a>
+                <a href="https://facebook.com" class="footer__link">
+                    <img src="../assets/Icons/icon-facebook.png" alt="facebook" class="footer__icon footer__icon--mid">
+                </a>
+                <a href="https://twitter.com" class="footer__link">
+                    <img src="../assets/Icons/icon-twitter.png" alt="twitter" class="footer__icon footer__icon--last">
+                </a>
+            </div>
+        </div>
     </footer>
-  </body>
+</body>
 </html>
