@@ -28,6 +28,7 @@ main {
     color: white;
     font-size: 0.8rem;
     border-radius: 3rem;
+    border: none; 
 }
 
 .form__button:hover {
