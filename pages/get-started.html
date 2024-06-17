@@ -4,19 +4,20 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/css/global.css">
-        <link rel="stylesheet" href="/css/main.css">
-        <title>Travel Site</title>
+        <link rel="stylesheet" href="/css/get-started.css">
+        <title>Get Started</title>
     </head>
 <body>
     <!-- header -->
     <header class="navbar">
         <nav class="navbar__wordmark-list-container">
+            <!-- watermark -->
             <h1 class="navbar__wordmark">
                 <a class='navbar__link-wordmark' href='/'>Travel Site</a>
             </h1>
-            <!-- navigation -->
+            <!-- navigation  -->
             <ul class="navbar__list">
-                <li class="navbar__item  navbar__item--selected">
+                <li class="navbar__item">
                     <a class='navbar__link' href='/'>Home</a>
                 </li>
                 <li class="navbar__item">
@@ -31,48 +32,39 @@
             </ul>
         </nav>
     </header>
+    <!-- main -->
     <main>
-        <!-- hero -->
-        <section class="hero">
-            <div class="hero__body-container">
-                <h2 class="hero__title">Travelling Comes With Endless Discoveries</h2>
-                <p class="hero__subtitle">Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
-                <a class='button' href='/pages/get-started.html'>Get Started</a>
-            </div>
-            <div>
-                <img src="./assets/images/hero.png" alt="explore the world" class="hero__image">
-            </div>
-        </section>
-
-        <!-- recommendations  -->
-        <section>
-            <h3 class="recommendation__title">Recommendations</h3>
-            <!-- recommendation cards -->
-            <section class="recommendation__cards-container">
-                    <a class='recommendation__card' href='/pages/hawaii.html'>
-                        <img src="./assets/images/hawaii.jpg" alt="hawaii" class="recommendation__destination-photo">            
-                        <p class="recommendation__destination-name">Hawaii</p>
-                    </a>       
-                    <a class='recommendation__card' href='/pages/iceland.html'>
-                        <img src="./assets/images/iceland.jpg" alt="hawaii" class="recommendation__destination-photo">
-                        <p class="recommendation__destination-name">Iceland</p>
-                    </a>
-                    <a class='recommendation__card' href='/pages/greece.html'>
-                        <img src="./assets/images/greece.jpg" alt="hawaii" class="recommendation__destination-photo">
-                        <p class="recommendation__destination-name">Greece</p>
-                    </a>
+        <form class="form">
+            <section class="form__destination">
+                <p>Please leave your name and email and we will get back to you as soon as we can.</p>
+                <p>Which destination(s) are you interested in?</p>
+                <input id="hawaii" type="checkbox" class="form__checkbox">
+                <label for="hawaii">Hawaii</label><br>
+                <input id="iceland" type="checkbox" class="form__checkbox">
+                <label for="iceland">Iceland</label><br>
+                <input id="greece" type="checkbox" class="form__checkbox">
+                <label class="greece">Greece</label><br>
             </section>
-        </section>
+            <section>
+                <p><label for="name">Name:</label></p>
+                <input id="name" type="text">
+                <p><label for="email">Email:</label></p>
+                <input id="email" type="email">
+                <p><label for="message">Message:</label></p>
+                <p><textarea id="message" rows="6" cols="70"></textarea></p>
+                <input type="submit" class="form__button">
+            </section>
+        </form>
     </main>
-    <!-- footer  -->
+    <!-- footer section -->
     <footer class="footer">
-        <!-- contacts  -->
+        <!-- contacts section -->
         <div>
             <h3 class="footer__title">Contact</h3>
             <p class="footer__subtitle">EMAIL</p>
             <a href="mailto:info@travelsite.com" class="footer__link">info@travelsite.com</a>
         </div>
-        <!-- hours  -->
+        <!-- hours section -->
         <div class="footer__hours-card">
             <h3 class="footer__title">Hours</h3>
             <div class="footer__days-hours-container">
@@ -90,21 +82,21 @@
                 </div>
             </div>
         </div>
-        <!-- social media -->
+        <!-- social media  -->
         <div class="footer__social-card">
             <h3 class="footer__title">Social</h3>
             <div class="footer__icons-container">
                 <a href="https://instagram.com" class="footer__link">
-                    <img src="./assets/Icons/icon-instagram.png" alt="instagram" class="footer__icon">
+                    <img src="../assets/Icons/icon-instagram.png" alt="instagram" class="footer__icon">
                 </a>
                 <a href="https://facebook.com" class="footer__link">
-                    <img src="./assets/Icons/icon-facebook.png" alt="facebook" class="footer__icon footer__icon--mid">
+                    <img src="../assets/Icons/icon-facebook.png" alt="facebook" class="footer__icon footer__icon--mid">
                 </a>
                 <a href="https://twitter.com" class="footer__link">
-                    <img src="./assets/Icons/icon-twitter.png" alt="twitter" class="footer__icon footer__icon--last">
+                    <img src="../assets/Icons/icon-twitter.png" alt="twitter" class="footer__icon footer__icon--last">
                 </a>
             </div>
         </div>
     </footer>
 </body>
-</html
+</html>

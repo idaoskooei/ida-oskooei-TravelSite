@@ -1,0 +1,35 @@
+body {
+    font-family: 'Verdana';
+    font-weight: 400;
+    margin: 0;
+}
+main {
+    background: rgb(219,122,78);
+    background: linear-gradient(90deg, rgb(243, 206, 189) 0%, rgba(231, 205, 212, 0.528) 35%);
+    }
+.form {
+    padding: 7%;
+    color: #335576;
+    font-weight: 700;
+    width: 60%;
+    margin: 3px auto 0;
+}
+.form__destination {
+    margin-bottom: 1rem;
+}
+.form__checkbox {
+    margin-bottom: 1rem;
+    padding: 2rem;
+}
+.form__button {
+    background-color: #DB7A4E;
+    padding: 0.6rem 2.5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    border-radius: 3rem;
+}
+
+.form__button:hover {
+    cursor: pointer;
+}
